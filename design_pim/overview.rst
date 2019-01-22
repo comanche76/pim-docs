@@ -83,6 +83,11 @@ To make your module available you need to clear your cache:
 
     rm -rf ./var/cache/*
 
+install asset
+
+. code-block:: bash
+
+    bin/console pim:install:asset --env=prod
 
 dump the assets in the web folder
 
